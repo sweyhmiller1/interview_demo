@@ -1,6 +1,6 @@
-import 'package:echowear_components/text.dart';
-import 'package:echowear_components/theme.dart';
 import 'package:flutter/material.dart';
+import '../texts/font_sizes.dart';
+import '../theme/layout.dart';
 
 enum CornerIconButtonSide {
   topLeft,
