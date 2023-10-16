@@ -35,6 +35,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  logging: ^1.0.2
+  provider: ^6.0.3
+  responsive_framework: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -57,6 +61,92 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Nunito/Nunito-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito/Nunito-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito/Nunito-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito/Nunito-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Nunito/Nunito-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: MontserratAlt
+      fonts:
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Light.ttf
+          weight: 300
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-Black.ttf
+          weight: 900
+        - asset: assets/fonts/MontserratAlternates/MontserratAlternates-BlackItalic.ttf
+          weight: 900
+          style: italic
 
   # To add assets to your application, add an assets section, like this:
   # assets:
