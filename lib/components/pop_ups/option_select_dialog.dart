@@ -1,7 +1,6 @@
-import 'package:echowear_components/buttons.dart';
-import 'package:echowear_components/text.dart';
 import 'package:flutter/material.dart';
 
+import '../texts/text_widgets.dart';
 import '../theme/layout.dart';
 import 'base_dialog.dart';
 

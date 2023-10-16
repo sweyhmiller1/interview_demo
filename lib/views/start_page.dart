@@ -18,6 +18,7 @@ import '../../services/data_reporting/online/data_stored_firebase.dart';
 import '../../services/sensors/sensor_manager.dart';
 import '../../services/user/user_offline/send_local_to_firebase.dart';
 import '../../services/user_progress/user_progress.dart';
+import '../components/texts/text_widgets.dart';
 import '../components/theme/colors.dart';
 import '../components/theme/layout.dart';
 import '../services/user.dart';

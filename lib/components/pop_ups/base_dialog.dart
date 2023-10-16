@@ -1,6 +1,6 @@
 import 'dart:ui';
-import 'package:echowear_components/text.dart';
 import 'package:flutter/material.dart';
+import '../texts/font_sizes.dart';
 import '../theme/layout.dart';
 
 /// An [AlertDialog] that serves as the base for all used Dialogues.
