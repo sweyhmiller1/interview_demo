@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:interview_demo/services/app_lifecycle.dart';
 import 'package:interview_demo/services/shared_preferences_helper.dart';
 import 'package:interview_demo/services/user.dart';
+import 'package:interview_demo/views/start_page.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

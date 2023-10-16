@@ -1,6 +1,9 @@
-import 'package:echowear_components/text.dart';
-import 'package:echowear_components/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../texts/font_sizes.dart';
+import '../texts/text_widgets.dart';
+import '../theme/colors.dart';
+import '../theme/layout.dart';
 
 /// A styled dropdown button. It does not actually show a
 /// dropdown list; in most cases a popup modal should be

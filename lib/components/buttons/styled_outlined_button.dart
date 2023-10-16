@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../text.dart';
-import '../../../theme.dart';
+import '../texts/font_sizes.dart';
+import '../texts/text_widgets.dart';
+import '../theme/colors.dart';
+import '../theme/layout.dart';
 
 /// Represents the available colors for a `StyledOutlinedButton`
 /// widget.

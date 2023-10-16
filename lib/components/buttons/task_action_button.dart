@@ -1,5 +1,5 @@
-import 'package:echowear_components/buttons.dart';
 import 'package:flutter/material.dart';
+import 'package:interview_demo/components/buttons/styled_basic_button.dart';
 
 /// [TaskActionButton] is a check button that runs a function.
 /// It takes in a boolean that controls whether the checkbox

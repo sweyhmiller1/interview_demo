@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../buttons/styled_basic_button.dart';
 import '../texts/text_widgets.dart';
 import '../theme/layout.dart';
 import 'base_dialog.dart';

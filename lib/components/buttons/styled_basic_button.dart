@@ -1,6 +1,8 @@
-import 'package:echowear_components/text.dart';
-import 'package:echowear_components/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../texts/font_sizes.dart';
+import '../texts/text_widgets.dart';
+import '../theme/layout.dart';
 
 /// The different types of button styles that can be used with
 /// the `StyledBasicButton`.

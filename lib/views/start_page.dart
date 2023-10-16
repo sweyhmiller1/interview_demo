@@ -1,10 +1,5 @@
 //services
 //settings and components
-import 'package:echowear_components/buttons.dart';
-import 'package:echowear_components/inputs.dart';
-import 'package:echowear_components/text.dart';
-import 'package:echowear_components/theme.dart';
-import 'package:exhibition/components/pop_ups/option_select_dialog.dart';
 import 'package:exhibition/services/data_reporting/offline/local_get_data.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -12,15 +7,21 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 
 import '../../components/backdrops/frosted_tile.dart';
-import '../../components/drawing_tools/graphs/line_graph.dart';
 import '../../components/pop_ups/base_dialog.dart';
 import '../../services/data_reporting/online/data_stored_firebase.dart';
 import '../../services/sensors/sensor_manager.dart';
 import '../../services/user/user_offline/send_local_to_firebase.dart';
 import '../../services/user_progress/user_progress.dart';
+import '../components/buttons/corner_icon_button.dart';
+import '../components/buttons/styled_basic_button.dart';
+import '../components/buttons/styled_dropdown_button.dart';
+import '../components/graphs/line_graph.dart';
+import '../components/inputs/styled_slider.dart';
+import '../components/pop_ups/option_select_dialog.dart';
 import '../components/texts/text_widgets.dart';
 import '../components/theme/colors.dart';
 import '../components/theme/layout.dart';
+import '../services/internet_manager.dart';
 import '../services/user.dart';
 import '../settings/settings.dart';
 
@@ -162,7 +163,7 @@ class _StartPageState extends State<StartPage> {
     //     FirebaseData(group: 'caretest_v21', name: 'nick');
 
     late Map<String, dynamic> dataToBeSent;
-    if (await WifiManager().isOnline) {
+    if (await InternetManager().isOnline) {
       FirebaseData firebaseData = FirebaseData(
           group:
               '${settings.groupName.value}_v${await PackageInfo.fromPlatform().then((value) => value.buildNumber)}',
